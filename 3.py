@@ -9,7 +9,9 @@ def Impar(tamaño):
     c = 0
     x = 0
     while (c < tamaño):
-        if (c % 2 != 0):
+        if (c % 2 == 0):
+            print("Eliminando el elemento {}, con índice {}".format(lista[c], c))
+        else:
             lista2.insert(x,lista[c])
             x = x+1
         c = c+1
