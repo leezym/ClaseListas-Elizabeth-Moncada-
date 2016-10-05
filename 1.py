@@ -12,7 +12,7 @@ def Mayor(tamaño):
         if (mayor < lista[c]):
             mayor = lista[c]
         c = c+1
-    return mayor
+    print("El mayor número de la lista es: ", mayor)
 
 tamaño = int(input("De que tamaño desea la lista: "))
-print(Mayor(tamaño))
+Mayor(tamaño)
